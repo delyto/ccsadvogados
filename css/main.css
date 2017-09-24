@@ -111,6 +111,7 @@ section.success {
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
     color : #C8AC48;
 }
+/* Visualização para Dispositivos Móveis */
 @media (min-width:992px) {
     #mainNav {
         padding-top : 25px;
@@ -142,6 +143,8 @@ section.success {
         max-height : 35px;
     }
 }
+
+/* Visualização para Desktop */
 @media (max-width:992px) {
     #mainNav {
         background-image : url("../img/pattern_escura.png");
@@ -467,7 +470,11 @@ footer .footer-below {
 .carousel-caption p {
     color : #7e7d82;
 }
+/* Visualização para Dispositivos Móveis (Smartphones) */
 @media (max-width:767px) {
+    .carousel-caption {
+        top : 70px;
+    }
     .carousel-caption h1 {
         font-size : 1.9em;
         margin-bottom : 0;
@@ -539,6 +546,7 @@ footer .footer-below {
         margin-top : 7rem;
     }
 }
+/* Visualização para Tablets e Desktops */
 @media (min-width:767px) {
     .padding {
         padding : 2rem 0;
